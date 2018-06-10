@@ -1,8 +1,6 @@
-import React from 'react'
+import React, {Component} from 'react'
 import {render} from 'react-dom'
-import App from './components/App'
+import Articles from './components/ArticleList'
 import {articles} from './fixtures'
 
-render(<App articles = {articles} />, document.getElementById('container'))
-
-hgfdjhgmc v fg hjfgd
+render(<Articles articles={articles} />, document.getElementById('container'))
